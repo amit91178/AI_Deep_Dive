@@ -28,3 +28,46 @@ import pandas as pd
 import torch
 import transformers
 print("Environment ready!")
+
+
+
+git add .
+git commit -m "Update notebooks for Week X"
+git push origin main
+
+This also allows you to access your notebooks from any machine if needed.
+
+2️⃣ Shutting Down Safely
+
+Close the notebook tabs in Jupyter Lab.
+
+Stop any running kernels (optional — frees resources but keeps your files).
+
+You don’t have to stop the Studio app; your files remain in your SageMaker user space.
+
+3️⃣ Reopening Later
+
+Go to AWS SageMaker Studio
+ → Launch Studio.
+
+Select the same user profile you used before.
+
+Open Jupyter Lab. Your home directory will have all your notebooks and folders intact.
+
+Your cloned GitHub repo will still be there.
+
+Any virtual environment you created (e.g., ai_env) may need to be reactivated:
+
+source ai_env/bin/activate
+4️⃣ Optional: Connecting GitHub Again
+
+If you want to pull updates or push from a different machine:
+
+# Pull latest changes
+cd AI_Deep_Dive
+git pull origin main
+
+# Push new changes
+git add .
+git commit -m "Update Week X notebook"
+git push origin main
