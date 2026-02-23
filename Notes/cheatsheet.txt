@@ -1,0 +1,4 @@
+Welcome to Amazon SageMaker Unified Studio!
+Your admin has set-up a project for you to use. Access your project by signing in with the provided IAM role, then navigate to the specified URL.
+URL: https://dzd-bvf5fry861dqsn.sagemaker.us-east-1.on.aws/overview
+IAM role: arn:aws:iam::289248149480:role/IibsAdminAccess-DO-NOT-DELETE
