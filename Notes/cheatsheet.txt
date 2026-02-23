@@ -2,3 +2,29 @@ Welcome to Amazon SageMaker Unified Studio!
 Your admin has set-up a project for you to use. Access your project by signing in with the provided IAM role, then navigate to the specified URL.
 URL: https://dzd-bvf5fry861dqsn.sagemaker.us-east-1.on.aws/overview
 IAM role: arn:aws:iam::289248149480:role/IibsAdminAccess-DO-NOT-DELETE
+
+
+Step 1: Verify Environment
+
+Open a terminal in SageMaker Studio.
+
+Check Python version:
+
+python3 --version
+
+Create a virtual environment (optional but clean):
+
+python3 -m venv ai_env
+source ai_env/bin/activate
+
+Install libraries you’ll need in Weeks 0–12:
+
+pip install numpy pandas matplotlib scikit-learn jupyterlab torch torchvision torchaudio transformers
+
+Verify installations:
+
+import numpy as np
+import pandas as pd
+import torch
+import transformers
+print("Environment ready!")
